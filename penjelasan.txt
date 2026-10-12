@@ -1,0 +1,53 @@
+Fungsi masing-masing bagian
+<!DOCTYPE html>
+Menentukan bahwa dokumen menggunakan standar HTML5.
+
+<html>
+<head>
+    <title>DATA PROFIL</title>
+</head>
+<html> → pembungkus seluruh halaman HTML.
+<head> → berisi informasi tentang halaman.
+<title> → judul yang muncul pada tab browser, yaitu DATA PROFIL.
+
+Bagian isi halaman
+<body>
+    <h1>PROFIL DATA DIRI</h1>
+<body> berisi semua konten yang terlihat di halaman web.
+<h1> digunakan untuk membuat judul utama, yaitu "PROFIL DATA DIRI".
+
+Menampilkan foto
+<img src="foto/rappi.jpeg" alt="Foto Rappi" width="...">
+Kode <img> digunakan untuk menampilkan gambar.
+src="foto/rappi.jpeg" → lokasi file foto.
+alt="Foto Rappi" → teks alternatif jika foto tidak dapat ditampilkan.
+width → mengatur lebar gambar.
+Jadi, browser akan mencari foto rappi.jpeg di dalam folder foto.
+
+Menampilkan data diri
+Contohnya:
+<p><b>Kuliah:</b> UNIVERSITAS PERTIPA</p>
+<p><b>Status:</b> Mahasiswa</p>
+<p><b>Fakultas:</b> Sains dan Informatika</p>
+<p><b>Prodi:</b> Sistem Teknologi Informasi</p>
+<p><b>Nama:</b> Rappi</p>
+<p><b>Umur:</b> 19 Tahun</p>
+<p> → membuat paragraf.
+<b> → membuat tulisan menjadi tebal.
+Hasilnya akan menampilkan informasi profil seperti nama, umur, universitas, fakultas, dan program studi.
+
+Bagian hobi
+<h2>Hobi</h2>
+<ul>
+    <li>Volly</li>
+    <li>Badminton</li>
+    <li>Bermain game online</li>
+</ul>
+<h2> → membuat subjudul Hobi.
+<ul> → membuat daftar tidak berurutan (bullet point).
+<li> → membuat setiap item dalam daftar.
+Sehingga tampilannya kira-kira:
+Hobi
+Volly
+Badminton
+Bermain game online
